@@ -1,0 +1,252 @@
+{% load static %}
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>{{title}}</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1,
+			user-scalable=no" />
+		<link rel="stylesheet" href="{% static 'assets/css/main.css' %}" />
+		<noscript><link rel="stylesheet" href="{% static 'assets/css/noscript.css' %}"
+				/></noscript>
+		<link rel="icon" type="image/png" href="{% static 'images/diamond.png' %}">
+	</head>
+	<body class="is-preload">
+		<!-- Page Wrapper -->
+		<div id="page-wrapper">
+
+			<!-- Header -->
+			<header id="header" class="alt">
+				<h1><a href="index.html">Name Project</a></h1>
+				<nav>
+					<a href="#menu">Menu</a>
+				</nav>
+			</header>
+
+			<!-- Menu -->
+			<nav id="menu">
+				<div class="inner">
+					<h2>Menu</h2>
+					<ul class="links">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="generic.html">Generic</a></li>
+						<li><a href="elements.html">Elements</a></li>
+						<li><a href="#">Log In</a></li>
+						<li><a href="#">Sign Up</a></li>
+					</ul>
+					<a href="#" class="close">Close</a>
+				</div>
+			</nav>
+			<!-- Banner -->
+			<section id="banner">
+				<div class="inner">
+					<div class="logo"><span class="icon fa-gem"></span></div>
+					<h2>Caso Arroz Verde</h2>
+					<p>Proyecto final - Sistemas Basados en conocimiento</p>
+				</div>
+			</section>
+			<!-- Wrapper -->
+			<section id="wrapper">
+				<!-- Four -->
+				<section id="first" class="wrapper alt style1">
+					<div class="inner">
+						<h2 class="major">Aquí texto</h2>
+						<textarea name="textCase" id="textCase" rows="10">
+						</textarea><br>
+						<a id="load" class="button">Cargar ejemplo</a>
+						<a id="clear" class="button">Limpiar campo</a>
+						<a id="execute" class="button">Probar</a>
+					</div>
+				</section>
+				<section id="second" class="wrapper alt style1">
+					<div class="inner">
+						<h2 class="major">Resultados</h2>
+						<p id="textComplete"></p>
+					</div>
+					<div class="inner">
+						<h2 class="major">Nro de entidades encontradas</h2>
+						<div class="table-wrapper">
+							<table>
+								<thead>
+									<tr>
+										<th>Empresas</th>
+										<th>Lugares</th>
+										<th>Personas</th>
+										<th>Casos</th>
+										<th>Partido Politico</th>
+
+									</tr>
+								</thead>
+								<tbody>
+									<tr id="nroEntities">
+										<td>0</td>
+										<td>0</td>
+										<td>0</td>
+										<td>0</td>
+										<td>0</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class="inner">
+						<h2 class="major">Nombres de las entidades encontradas</h2>
+						<div class="table-wrapper">
+							<table>
+								<thead>
+									<tr>
+										<th>Empresas</th>
+										<th>Lugares</th>
+										<th>Personas</th>
+										<th>Caso</th>
+										<th>Partido Politico</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>
+										 	<ul id="company">
+											 Not Found
+											 </ul>
+										</td>
+										<td >
+										 	<ul id="place">
+											 	Not Found
+											 </ul>
+										</td>
+										<td >
+										 	<ul id="person">
+											 	Not Found
+											 </ul>
+										</td>
+										<td >
+										 	<ul id="case">
+											 	Not Found
+											 </ul>
+										</td>
+										<td >
+										 	<ul id="political">
+											 	Not Found
+											 </ul>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class="">
+						<h2 class="major">Tripletas relacionadas</h2>
+						<div class="table-wrapper">
+							<table>
+								<thead>
+									<tr>
+										<th>Sujeto</th>
+										<th>Predicado</th>
+										<th>Objeto</th>
+									</tr>
+								</thead>
+								<tbody id="tripletas">
+									<tr >
+										<td>Not Found</td>
+										<td>Not Found</td>
+										<td>Not Found</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</section>
+
+			</section>
+
+			<!-- Footer -->
+			<section id="footer">
+				<div class="inner">
+					<ul class="copyright">
+						<li>&copy; Sistemas Basados en Conocimiento SBC. All rights reserved.</li><li>Powered: <a
+								>Andres Carrión | Rebeca Luzcando | Cinthya Medina</a></li>
+					</ul>
+				</div>
+			</section>
+
+		</div>
+
+		<!-- Scripts {% static 'assets/js/util.js' %} -->
+		<script src="{% static 'assets/js/jquery.min.js' %}"></script>
+		<script src="{% static 'assets/js/jquery.scrollex.min.js' %}"></script>
+		<script src="{% static 'assets/js/browser.min.js' %}"></script>
+		<script src="{% static 'assets/js/breakpoints.min.js' %}"></script>
+		<script src="{% static 'assets/js/util.js' %}"></script>
+		<script src="{% static 'assets/js/main.js' %}"></script>
+		<script>
+			$('#load').click(function (event) {
+				$("#textCase").html( "" );
+				$("#textCase").html( "El caso receta de Arroz Verde - 502 es una investigación publicada por el portal digital Mil Hojas. El portal digital reveló un correo electrónico recibido por Pamela Martínez supuesta asesora del expresidente Rafael Correa según Mil Hoja con un documento titulado receta de Arroz Verde - 502. Según la investigación, el remitente del correo electrónico sería Geraldo Luiz Pereira de Souza, encargado de la administración y finanzas de Odebrecht en Ecuador. El mail demuestra presuntos aportes entregados por empresas multinacionales como Odebrecht al movimiento Alianza País desde noviembre de 2013 a febrero de 201 periodo en el que el expresidente Rafael Correa lideraba esa organización política. Según Mil Hojas, las donaciones alcanzarían los 11,6 millones de dólares. Las empresas que habrían realizado los aportes son: Odebrecht, SK Engineering & Construction, Sinohydro Corporation, Grupo Azul, Telconet, China International Water & Electric Corp." );
+			});
+			$('#clear').click(function (event) {
+				$("#textCase").html( "" );
+			});
+			$("#execute").click(function (event) {
+				var text = $("#textCase").val();
+				$.ajax({
+					type: "POST",
+					url: "{% url 'process' %}",
+					data: {
+					'data': text
+					},
+					dataType: 'json',
+					success: function (data) {
+						$("#textComplete").html(data["textComplete"]);
+						$("#nroEntities").html(
+							"<td>"+data["nroEntities"]["Empresa"]+"</td>"+
+							"<td>"+data["nroEntities"]["Lugar"]+"</td>"+
+							"<td>"+data["nroEntities"]["Persona"]+"</td>"+
+							"<td>"+data["nroEntities"]["Caso"]+"</td>"+
+							"<td>"+data["nroEntities"]["PartidoPolitico"]+"</td>"
+						)
+						var company =""
+						//data["entities"]["Empresa"] = [...new Set(data["entities"]["Empresa"])]
+						data["entities"]["Empresa"].forEach(element => {
+							company += "<li>"+element+"</li>"
+						});
+						$("#company").html(company);
+						var place =""
+						data["entities"]["Lugar"].forEach(element => {
+							place += "<li>"+element+"</li>"
+						});
+						$("#place").html(place);
+						var person =""
+						data["entities"]["Persona"].forEach(element => {
+							person += "<li>"+element+"</li>"
+						});
+						$("#person").html(person);
+						var cases =""
+						data["entities"]["Caso"].forEach(element => {
+							cases += "<li>"+element+"</li>"
+						});
+						$("#case").html(cases);
+						var political =""
+						data["entities"]["PartidoPolitico"].forEach(element => {
+							political += "<li>"+element+"</li>"
+						});
+						$("#political").html(political);
+						var dataTriplet = ""
+						data["triplet"].forEach(element => {
+							//console.log(element)
+							dataTriplet += "<tr>"
+							element.forEach(y => {
+								if (y.includes("resource")) {
+									dataTriplet += "<td><a href='"+y+"' target='_blank'>"+y+"</td>";
+								} else {
+									dataTriplet += "<td>"+y+"</td>";
+								}
+							});
+							dataTriplet += "</tr>"
+						});
+						$("#tripletas").html(dataTriplet)
+					}
+				});
+			});
+		</script>
+	</body>
+</html>

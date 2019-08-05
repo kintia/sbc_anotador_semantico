@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:sbc="http://www.arrozverde.org/ontology/">
+
+  <rdf:Description rdf:about="http://www.arrozverde.org/ontology/Persona">
+    <owl:sameAs rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://localhost:8080/pubby/page/Jorge_Glass">
+    <rdf:type rdf:resource="http://www.arrozverde.org/ontology/Persona"/>
+    <sbc:name>Jorge Glass</sbc:name>
+    <sbc:name>Jorge David Glas Espinel</sbc:name>
+    <sbc:name>J.G.</sbc:name>
+    <sbc:name>Vicepresidente Glass</sbc:name>
+    <sbc:name>Vidrio</sbc:name>
+    <sbc:relacionadoCon rdf:resource="http://localhost:8080/pubby/page/Arroz_Verde"/>
+    <sbc:vive_en>
+      <sbc:Lugar rdf:about="http://localhost:8080/pubby/page/Ecuador">
+        <sbc:name>Ecuador</sbc:name>
+      </sbc:Lugar>
+    </sbc:vive_en>
+
+    <sbc:perteneceA rdf:resource="http://localhost:8080/pubby/page/Alianza_Pais"/>
+    <sbc:tieneRol rdf:resource="http://localhost:8080/pubby/page/Lider"/>
+    <sbc:tieneRol rdf:resource="http://localhost:8080/pubby/page/Negociador"/>
+    <sbc:tieneRol rdf:resource="http://localhost:8080/pubby/page/Gestionador"/>
+    <sbc:tieneRol rdf:resource="http://localhost:8080/pubby/page/Recaudador"/>
+    <sbc:tienePuesto>
+      <sbc:Puesto rdf:about="http://localhost:8080/pubby/page/Vicepresidente">
+        <sbc:name>Vicepresidente</sbc:name>
+      </sbc:Puesto>
+    </sbc:tienePuesto>
+
+  </rdf:Description>
+
+  <sbc:Persona rdf:about="http://localhost:8080/pubby/page/Cai_Runguo">
+    <sbc:name>Cai Runguo</sbc:name>
+    <sbc:relacionadoCon rdf:resource="http://localhost:8080/pubby/page/Arroz_Verde"/>
+    <sbc:tieneRol rdf:resource="http://localhost:8080/pubby/page/Lider"/>
+    <sbc:tieneRol rdf:resource="http://localhost:8080/pubby/page/Negociador"/>
+    <sbc:tieneRol rdf:resource="http://localhost:8080/pubby/page/Gestionador"/>
+    <sbc:tieneRol rdf:resource="http://localhost:8080/pubby/page/Recaudador"/>
+    <sbc:tienePuesto rdf:resource="http://localhost:8080/pubby/page/Representante"/>
+    <sbc:trabajoEn>
+      <sbc:Empresa rdf:about="http://localhost:8080/pubby/page/Sinohydro_Corporation">
+        <sbc:name>Sinohydro Corporation</sbc:name>
+        <sbc:tieneAlias>
+          <sbc:Alias rdf:about="http://localhost:8080/pubby/page/V14">
+            <sbc:name>V14</sbc:name>
+          </sbc:Alias>
+        </sbc:tieneAlias>
+
+      </sbc:Empresa>
+    </sbc:trabajoEn>
+
+  </sbc:Persona>
+
+  <sbc:Persona rdf:about="http://localhost:8080/pubby/page/Rafael_Correa">
+    <sbc:name>Rafael Correa</sbc:name>
+    <sbc:name>Rafael Vicente Correa Delgado</sbc:name>
+    <sbc:name>Presidente Correa</sbc:name>
+    <sbc:name>R.C.</sbc:name>
+    <sbc:name>Economista Correa</sbc:name>
+    <sbc:name>Mashi</sbc:name>
+    <sbc:name>Mashi Rafael</sbc:name>
+    <sbc:name>Mashi Correa</sbc:name>
+    <sbc:name>Rafico</sbc:name>
+    <sbc:relacionadoCon rdf:resource="http://localhost:8080/pubby/page/Arroz_Verde"/>
+  </sbc:Persona>
+
+  <sbc:Persona rdf:about="http://localhost:8080/pubby/page/Jose_Santos">
+    <sbc:name>Jorge Santos</sbc:name>
+    <sbc:relacionadoCon rdf:resource="http://localhost:8080/pubby/page/Arroz_Verde"/>
+    <sbc:perteneceA rdf:resource="http://localhost:8080/pubby/page/Odebretch"/>
+  </sbc:Persona>
+
+  <sbc:Persona rdf:about="http://localhost:8080/pubby/page/Geraldo_Pereira_de_Souza">
+    <sbc:name>Geraldo Pereira de Souza</sbc:name>
+    <sbc:name>Geraldo Luiz Pereira de Souza</sbc:name>
+    <sbc:relacionadoCon rdf:resource="http://localhost:8080/pubby/page/Arroz_Verde"/>
+    <sbc:perteneceA rdf:resource="http://localhost:8080/pubby/page/Odebretch"/>
+  </sbc:Persona>
+
+  <sbc:Persona rdf:about="http://localhost:8080/pubby/page/Carlos_Polit">
+    <sbc:name>Carlos Polit</sbc:name>
+    <sbc:relacionadoCon rdf:resource="http://localhost:8080/pubby/page/Arroz_Verde"/>
+  </sbc:Persona>
+
+  <sbc:Persona rdf:about="http://localhost:8080/pubby/page/Maria_de_los_Angeles_Duarte">
+    <sbc:relacionadoCon rdf:resource="http://localhost:8080/pubby/page/Arroz_Verde"/>
+    <sbc:tieneRol rdf:resource="http://localhost:8080/pubby/page/Lider"/>
+    <sbc:tieneRol rdf:resource="http://localhost:8080/pubby/page/Negociador"/>
+    <sbc:tieneRol rdf:resource="http://localhost:8080/pubby/page/Gestionador"/>
+    <sbc:tieneRol rdf:resource="http://localhost:8080/pubby/page/Recaudador"/>
+    <sbc:perteneceA rdf:resource="http://localhost:8080/pubby/page/Alianza_Pais"/>
+    <sbc:name>Maria de los Angeles Duarte</sbc:name>
+  </sbc:Persona>
+
+  <sbc:Persona rdf:about="http://localhost:8080/pubby/page/Walter_Solis">
+    <sbc:tieneRol rdf:resource="http://localhost:8080/pubby/page/Lider"/>
+    <sbc:tieneRol rdf:resource="http://localhost:8080/pubby/page/Negociador"/>
+    <sbc:tieneRol rdf:resource="http://localhost:8080/pubby/page/Gestionador"/>
+    <sbc:tieneRol rdf:resource="http://localhost:8080/pubby/page/Recaudador"/>
+    <sbc:relacionadoCon rdf:resource="http://localhost:8080/pubby/page/Arroz_Verde"/>
+    <sbc:tienePuesto>
+      <sbc:Puesto rdf:about="http://localhost:8080/pubby/page/Secretario_Nacional_del_Agua">
+        <sbc:name>Secretario Nacional del Agua</sbc:name>
+      </sbc:Puesto>
+    </sbc:tienePuesto>
+
+    <sbc:perteneceA rdf:resource="http://localhost:8080/pubby/page/Alianza_Pais"/>
+    <sbc:name>Walter Solis</sbc:name>
+  </sbc:Persona>
+
+  <sbc:Persona rdf:about="http://localhost:8080/pubby/page/Maria_Pamela_Martinez_Loayza">
+    <sbc:relacionadoCon rdf:resource="http://localhost:8080/pubby/page/Arroz_Verde"/>
+    <sbc:tienePuesto rdf:resource="http://localhost:8080/pubby/page/Asesora_de_la_Presidencia_de_la_Republica"/>
+    <sbc:name>Maria Pamela Martinez Loayza</sbc:name>
+    <sbc:name>Pamela Martínez</sbc:name>
+  </sbc:Persona>
+
+  <sbc:Persona rdf:about="http://localhost:8080/pubby/page/Maria_Augusta_Enriquez_Argudo">
+    <sbc:relacionadoCon rdf:resource="http://localhost:8080/pubby/page/Arroz_Verde"/>
+    <sbc:tieneRol>
+      <sbc:Rol rdf:about="http://localhost:8080/pubby/page/Participante">
+        <sbc:name>Participante</sbc:name>
+      </sbc:Rol>
+    </sbc:tieneRol>
+
+    <sbc:tieneRol rdf:resource="http://localhost:8080/pubby/page/participante"/>
+    <sbc:name>Maria Augusta Enriquez Argudo</sbc:name>
+    <sbc:tienePuesto rdf:resource="http://localhost:8080/pubby/page/Asesora_de_la_Presidencia_de_la_Republica"/>
+  </sbc:Persona>
+
+  <sbc:Persona rdf:about="http://localhost:8080/pubby/page/Laura_Teran_Betancourt">
+    <sbc:relacionadoCon rdf:resource="http://localhost:8080/pubby/page/Arroz_Verde"/>
+    <sbc:tieneRol rdf:resource="http://localhost:8080/pubby/page/recaudador"/>
+    <sbc:tienePuesto rdf:resource="http://localhost:8080/pubby/page/Asistente_de_presidencia"/>
+    <sbc:name>Laura Teram Betancourt</sbc:name>
+  </sbc:Persona>
+
+  <sbc:Persona rdf:about="http://localhost:8080/pubby/page/Victoria_Andrade">
+    <sbc:relacionadoCon rdf:resource="http://localhost:8080/pubby/page/Arroz_Verde"/>
+    <sbc:tienePuesto rdf:resource="http://localhost:8080/pubby/page/Asistente_de_presidencia"/>
+    <sbc:name>Victoria Andrade</sbc:name>
+  </sbc:Persona>
+
+  <sbc:Persona rdf:about="http://localhost:8080/pubby/page/No_identificado">
+    <sbc:relacionadoCon rdf:resource="http://localhost:8080/pubby/page/Arroz_Verde"/>
+    <sbc:name>No identificado</sbc:name>
+  </sbc:Persona>
+
+  <sbc:Persona rdf:about="http://localhost:8080/pubby/page/Monica_Hernandez_Vasconez">
+    <sbc:relacionadoCon rdf:resource="http://localhost:8080/pubby/page/Arroz_Verde"/>
+    <sbc:perteneceA rdf:resource="http://localhost:8080/pubby/page/Grupo_Azul"/>
+    <sbc:name>Monica Hernandez Vasconez</sbc:name>
+  </sbc:Persona>
+
+  <sbc:Persona rdf:about="http://localhost:8080/pubby/page/Tomislav_Topic_Granados">
+    <sbc:relacionadoCon rdf:resource="http://localhost:8080/pubby/page/Arroz_Verde"/>
+    <sbc:perteneceA rdf:resource="http://localhost:8080/pubby/page/Telconet"/>
+    <sbc:name>Tomislav Topic Grandados</sbc:name>
+  </sbc:Persona>
+
+  <sbc:Persona rdf:about="http://localhost:8080/pubby/page/Alexis_Mera">
+    <sbc:relacionadoCon rdf:resource="http://localhost:8080/pubby/page/Arroz_Verde"/>
+    <sbc:tienePuesto>
+      <sbc:Puesto rdf:about="http://localhost:8080/pubby/page/Secretario_juridico_de_la_Presidencia_del_Ecuador">
+        <sbc:name>Secretario juridico de la Presidencia del Ecuador</sbc:name>
+      </sbc:Puesto>
+    </sbc:tienePuesto>
+
+    <sbc:perteneceA rdf:resource="http://localhost:8080/pubby/page/Alianza_Pais"/>
+    <sbc:name>Alexis Mora</sbc:name>
+  </sbc:Persona>
+
+  <sbc:Persona rdf:about="http://localhost:8080/pubby/page/Viviana_Patricia_Bonilla_Salcedo">
+    <sbc:relacionadoCon rdf:resource="http://localhost:8080/pubby/page/Arroz_Verde"/>
+    <sbc:tienePuesto>
+      <sbc:Puesto rdf:about="http://localhost:8080/pubby/page/Ex_candidata_a_la_Alcaldia_de_Guayaquil">
+        <sbc:name>Ex Candidata a la Alcaldia de Guayaquil</sbc:name>
+      </sbc:Puesto>
+    </sbc:tienePuesto>
+
+    <sbc:perteneceA rdf:resource="http://localhost:8080/pubby/page/Alianza_Pais"/>
+    <sbc:name>Viviana Patricia Bonilla Salcedo</sbc:name>
+  </sbc:Persona>
+
+  <sbc:Persona rdf:about="http://localhost:8080/pubby/page/Carlos_Eloy_Viteri">
+    <sbc:relacionadoCon rdf:resource="http://localhost:8080/pubby/page/Arroz_Verde"/>
+    <sbc:name>Carlos Eloy Viteri</sbc:name>
+  </sbc:Persona>
+
+  <sbc:Persona rdf:about="http://localhost:8080/pubby/page/Bolivar_Sanchez_Ribadeneira">
+    <sbc:relacionadoCon rdf:resource="http://localhost:8080/pubby/page/Arroz_Verde"/>
+    <sbc:name>Bolivar Sanchez Ribadeneira</sbc:name>
+  </sbc:Persona>
+
+  <sbc:Rol rdf:about="http://localhost:8080/pubby/page/Lider">
+    <sbc:name>Lider</sbc:name>
+  </sbc:Rol>
+
+  <sbc:Rol rdf:about="http://localhost:8080/pubby/page/Negociador">
+    <sbc:name>Negociador</sbc:name>
+  </sbc:Rol>
+
+  <sbc:Rol rdf:about="http://localhost:8080/pubby/page/Gestionador">
+    <sbc:name>Gestionador</sbc:name>
+  </sbc:Rol>
+
+  <sbc:Rol rdf:about="http://localhost:8080/pubby/page/Recaudador">
+    <sbc:name>Recaudador</sbc:name>
+  </sbc:Rol>
+
+  <sbc:Rol rdf:about="http://localhost:8080/pubby/page/Distribuidor_dinero">
+    <sbc:name>Distribuidor del dinero</sbc:name>
+  </sbc:Rol>
+
+  <sbc:Alias rdf:about="http://localhost:8080/pubby/page/L1-JG">
+    <sbc:name>L1-JG</sbc:name>
+  </sbc:Alias>
+
+  <sbc:Alias rdf:about="http://localhost:8080/pubby/page/L2-MD">
+    <sbc:name>L2-MD</sbc:name>
+  </sbc:Alias>
+
+  <sbc:Alias rdf:about="http://localhost:8080/pubby/page/L3-WS">
+    <sbc:name>L3-WS</sbc:name>
+  </sbc:Alias>
+
+  <sbc:Alias rdf:about="http://localhost:8080/pubby/page/C3-PM">
+    <sbc:name>C3-PM</sbc:name>
+  </sbc:Alias>
+
+  <sbc:Alias rdf:about="http://localhost:8080/pubby/page/C1-OM">
+    <sbc:name>C1-OM</sbc:name>
+  </sbc:Alias>
+
+  <sbc:Alias rdf:about="http://localhost:8080/pubby/page/C2-ME">
+    <sbc:name>C2-ME</sbc:name>
+  </sbc:Alias>
+
+  <sbc:Alias rdf:about="http://localhost:8080/pubby/page/V7">
+    <sbc:name>V7</sbc:name>
+  </sbc:Alias>
+
+  <sbc:Alias rdf:about="http://localhost:8080/pubby/page/V8">
+    <sbc:name>V8</sbc:name>
+  </sbc:Alias>
+
+  <sbc:Alias rdf:about="http://localhost:8080/pubby/page/V12">
+    <sbc:name>V12</sbc:name>
+  </sbc:Alias>
+
+  <sbc:Alias rdf:about="http://localhost:8080/pubby/page/V11">
+    <sbc:name>V11</sbc:name>
+  </sbc:Alias>
+
+  <sbc:Alias rdf:about="http://localhost:8080/pubby/page/V9">
+    <sbc:name>V9</sbc:name>
+  </sbc:Alias>
+
+  <sbc:Alias rdf:about="http://localhost:8080/pubby/page/V10">
+    <sbc:name>V10</sbc:name>
+  </sbc:Alias>
+
+  <sbc:Empresa rdf:about="http://localhost:8080/pubby/page/Odebretch">
+    <sbc:name>Norberto Odebretch</sbc:name>
+    <sbc:name>Constructora Norberto Odebrecht</sbc:name>
+    <sbc:name>Odebrecht</sbc:name>
+    <sbc:tieneAlias rdf:resource="http://localhost:8080/pubby/page/V7"/>
+  </sbc:Empresa>
+
+  <sbc:Empresa rdf:about="http://localhost:8080/pubby/page/SK_Engineering_Construction">
+    <sbc:name>SK South Korea Engineering &amp; Construction</sbc:name>
+    <sbc:name>SK Engineering &amp; Construction</sbc:name>
+    <sbc:tieneAlias rdf:resource="http://localhost:8080/pubby/page/V8"/>
+  </sbc:Empresa>
+
+  <sbc:Empresa rdf:about="http://localhost:8080/pubby/page/Grupo_Azul">
+    <sbc:name>William Phillips Grupo Azul</sbc:name>
+    <sbc:name>Grupo Azul</sbc:name>
+    <sbc:tieneAlias rdf:resource="http://localhost:8080/pubby/page/V12"/>
+  </sbc:Empresa>
+
+  <sbc:Empresa rdf:about="http://localhost:8080/pubby/page/Telconet">
+    <sbc:name>Tomislav Topic Telconet</sbc:name>
+    <sbc:name>Telconet</sbc:name>
+    <sbc:name>TELCONET</sbc:name>
+    <sbc:tieneAlias rdf:resource="http://localhost:8080/pubby/page/V11"/>
+  </sbc:Empresa>
+
+  <sbc:Empresa rdf:about="http://localhost:8080/pubby/page/China_International_Water_Electric_Corp_CWE">
+    <sbc:name>China International Water &amp; Electric Corp-CWE</sbc:name>
+    <sbc:name>China International Water &amp; Electric Corp</sbc:name>
+    <sbc:tieneAlias rdf:resource="http://localhost:8080/pubby/page/V9"/>
+  </sbc:Empresa>
+
+  <sbc:Empresa rdf:about="http://localhost:8080/pubby/page/Constructora_Nacional_Fopeca_y_Sanrib_Corporation">
+    <sbc:name>Constructora Nacional Fopeca y Sanrib Corporation</sbc:name>
+    <sbc:tieneAlias rdf:resource="http://localhost:8080/pubby/page/V10"/>
+  </sbc:Empresa>
+
+  <sbc:Empresa rdf:about="http://localhost:8080/pubby/page/NexoGlobal">
+    <sbc:name>NexoGlobal</sbc:name>
+  </sbc:Empresa>
+
+  <sbc:Puesto rdf:about="http://localhost:8080/pubby/page/Asesora_de_la_Presidencia_de_la_Republica">
+    <sbc:name>Asesora de la Presidencia de la Republica</sbc:name>
+    <sbc:name>asesora del expresidente</sbc:name>
+  </sbc:Puesto>
+
+  <sbc:Puesto rdf:about="http://localhost:8080/pubby/page/Asistente_de_presidencia">
+    <sbc:name>Asistente de presidencia</sbc:name>
+  </sbc:Puesto>
+
+  <sbc:Puesto rdf:about="http://localhost:8080/pubby/page/Asambleista">
+    <sbc:name>Asambleista</sbc:name>
+  </sbc:Puesto>
+
+  <sbc:Caso rdf:about="http://localhost:8080/pubby/page/Arroz_Verde">
+    <sbc:name>Arroz Verde</sbc:name>
+  </sbc:Caso>
+
+  <sbc:PartidoPolitico rdf:about="http://localhost:8080/pubby/page/Alianza_Pais">
+    <sbc:name>Alianza Pais</sbc:name>
+    <sbc:name>Alianza País</sbc:name>
+    <sbc:name>Alianza PAIS</sbc:name>
+  </sbc:PartidoPolitico>
+
+  <sbc:Transaccion rdf:about="http://localhost:8080/pubby/page/Transaccion1">
+    <sbc:desde rdf:resource="http://localhost:8080/pubby/page/Oderbrecht"/>
+    <sbc:hacia rdf:resource="http://localhost:8080/pubby/page/Alianza_Pais"/>
+    <sbc:monto>500000</sbc:monto>
+    <sbc:fecha>9/9/13</sbc:fecha>
+    <sbc:metodo>efectivo</sbc:metodo>
+  </sbc:Transaccion>
+
+  <sbc:Aportacion rdf:about="http://localhost:8080/pubby/page/Aportacion2">
+    <sbc:desde rdf:resource="http://localhost:8080/pubby/page/Oderbrecht"/>
+    <sbc:hacia rdf:resource="http://localhost:8080/pubby/page/Alianza_Pais"/>
+    <sbc:monto>500000</sbc:monto>
+    <sbc:fecha>10/21/13</sbc:fecha>
+    <sbc:metodo>efectivo</sbc:metodo>
+  </sbc:Aportacion>
+
+  <sbc:Transaccion rdf:about="http://localhost:8080/pubby/page/Transaccion3">
+    <sbc:desde rdf:resource="http://localhost:8080/pubby/page/Oderbrecht"/>
+    <sbc:hacia rdf:resource="http://localhost:8080/pubby/page/Alianza_Pais"/>
+    <sbc:monto>150000</sbc:monto>
+    <sbc:fecha>11/12/13</sbc:fecha>
+    <sbc:metodo>efectivo</sbc:metodo>
+  </sbc:Transaccion>
+
+  <sbc:Transaccion rdf:about="http://localhost:8080/pubby/page/Transaccion4">
+    <sbc:desde rdf:resource="http://localhost:8080/pubby/page/Oderbrecht"/>
+    <sbc:hacia rdf:resource="http://localhost:8080/pubby/page/Alianza_Pais"/>
+    <sbc:monto>300000</sbc:monto>
+    <sbc:fecha>11/21/13</sbc:fecha>
+    <sbc:metodo>efectivo</sbc:metodo>
+  </sbc:Transaccion>
+
+  <sbc:Transaccion rdf:about="http://localhost:8080/pubby/page/Transaccion5">
+    <sbc:desde rdf:resource="http://localhost:8080/pubby/page/Oderbrecht"/>
+    <sbc:hacia rdf:resource="http://localhost:8080/pubby/page/Alianza_Pais"/>
+    <sbc:monto>100000</sbc:monto>
+    <sbc:fecha>12/02/13</sbc:fecha>
+    <sbc:metodo>efectivo</sbc:metodo>
+  </sbc:Transaccion>
+
+  <sbc:Transaccion rdf:about="http://localhost:8080/pubby/page/Transaccion6">
+    <sbc:desde rdf:resource="http://localhost:8080/pubby/page/Grupo_Azul"/>
+    <sbc:hacia rdf:resource="http://localhost:8080/pubby/page/Alianza_Pais"/>
+    <sbc:monto>20000</sbc:monto>
+    <sbc:fecha>12/09/13</sbc:fecha>
+    <sbc:metodo>efectivo</sbc:metodo>
+  </sbc:Transaccion>
+
+  <sbc:Transaccion rdf:about="http://localhost:8080/pubby/page/Transaccion7">
+    <sbc:desde rdf:resource="http://localhost:8080/pubby/page/Oderbrecht"/>
+    <sbc:hacia rdf:resource="http://localhost:8080/pubby/page/Alianza_Pais"/>
+    <sbc:monto>500000</sbc:monto>
+    <sbc:fecha>12/16/13</sbc:fecha>
+    <sbc:metodo>efectivo</sbc:metodo>
+  </sbc:Transaccion>
+
+  <sbc:Transaccion rdf:about="http://localhost:8080/pubby/page/Transaccion8">
+    <sbc:desde rdf:resource="http://localhost:8080/pubby/page/Oderbrecht"/>
+    <sbc:hacia rdf:resource="http://localhost:8080/pubby/page/Alianza_Pais"/>
+    <sbc:monto>439900</sbc:monto>
+    <sbc:fecha>12/17/13</sbc:fecha>
+    <sbc:metodo>efectivo</sbc:metodo>
+  </sbc:Transaccion>
+
+  <sbc:Transaccion rdf:about="http://localhost:8080/pubby/page/Transaccion9">
+    <sbc:desde rdf:resource="http://localhost:8080/pubby/page/Oderbrecht"/>
+    <sbc:hacia rdf:resource="http://localhost:8080/pubby/page/Alianza_Pais"/>
+    <sbc:monto>10100</sbc:monto>
+    <sbc:fecha>12/18/13</sbc:fecha>
+    <sbc:metodo>efectivo</sbc:metodo>
+  </sbc:Transaccion>
+
+  <sbc:Transaccion rdf:about="http://localhost:8080/pubby/page/Transaccion10">
+    <sbc:desde rdf:resource="http://localhost:8080/pubby/page/Telconet"/>
+    <sbc:hacia rdf:resource="http://localhost:8080/pubby/page/Alianza_Pais"/>
+    <sbc:monto>100000</sbc:monto>
+    <sbc:fecha>1/3/14</sbc:fecha>
+    <sbc:metodo>efectivo</sbc:metodo>
+  </sbc:Transaccion>
+
+  <sbc:Transaccion rdf:about="http://localhost:8080/pubby/page/Transaccion11">
+    <sbc:desde rdf:resource="http://localhost:8080/pubby/page/Telconet"/>
+    <sbc:hacia rdf:resource="http://localhost:8080/pubby/page/Alianza_Pais"/>
+    <sbc:monto>250000</sbc:monto>
+    <sbc:fecha>1/10/14</sbc:fecha>
+    <sbc:metodo>efectivo</sbc:metodo>
+  </sbc:Transaccion>
+
+  <sbc:Transaccion rdf:about="http://localhost:8080/pubby/page/Transaccion12">
+    <sbc:desde rdf:resource="http://localhost:8080/pubby/page/Telconet"/>
+    <sbc:hacia rdf:resource="http://localhost:8080/pubby/page/Alianza_Pais"/>
+    <sbc:monto>150000</sbc:monto>
+    <sbc:fecha>1/15/14</sbc:fecha>
+    <sbc:metodo>efectivo</sbc:metodo>
+  </sbc:Transaccion>
+
+  <sbc:Transaccion rdf:about="http://localhost:8080/pubby/page/Transaccion13">
+    <sbc:desde rdf:resource="http://localhost:8080/pubby/page/Telconet"/>
+    <sbc:hacia rdf:resource="http://localhost:8080/pubby/page/Alianza_Pais"/>
+    <sbc:monto>150000</sbc:monto>
+    <sbc:fecha>1/15/14</sbc:fecha>
+    <sbc:metodo>efectivo</sbc:metodo>
+  </sbc:Transaccion>
+
+  <sbc:Contrato rdf:about="http://localhost:8080/pubby/page/Contrato1">
+    <sbc:monto>4000 millones</sbc:monto>
+  </sbc:Contrato>
+
+</rdf:RDF>
